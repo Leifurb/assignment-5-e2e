@@ -5,6 +5,7 @@ on:
 jobs:
   playwrighttests:
     runs-on: ubuntu-latest
+    timeout-minutes: 4
 
     steps:
       - name: Checkout Repo
@@ -19,7 +20,7 @@ jobs:
       - name: Build
         run: npm build
       - name: Run
-        run: npm run
+        run: npm run &
 
       - name: Run playwright tests
         run: npx run test:e2e
