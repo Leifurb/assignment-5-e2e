@@ -1,5 +1,18 @@
 # Assignment 5
 
+### Domain assignment-5-e2e-beige.vercel.app
+
+## There are 2 github actions, the first one runs on push to main and deploys app to production
+
+# Production link assignment-5-e2e-aw89extb9-leifurb.vercel.app
+
+## second action runs on push to branch (e.g !main) and deploys a preview deployment on a seperate link
+
+# Example of preview deploment link assignment-5-e2e-6qwpmp90v-leifurb.vercel.app
+
+
+ 
+
 #### E2E / UI Testing
 
 ---
