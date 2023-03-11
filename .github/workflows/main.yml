@@ -1,7 +1,7 @@
 name: test on push
 on:
   push:
-    branches: main
+  
 jobs:
   playwrighttests:
     runs-on: ubuntu-latest
@@ -44,3 +44,5 @@ jobs:
         run: npm ci
       - name: Run tests
         run: npm run test
+        
+  # IuGVgfKMjw3tZCSl5qncmVek
