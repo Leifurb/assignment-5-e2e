@@ -2,6 +2,8 @@
 
 ### Domain assignment-5-e2e-beige.vercel.app
 
+ -note: I did not change my implementation from last assignment, so my e2e tests are passaple but not optimal
+
 ## There are 2 github actions, the first one runs on push to main and deploys app to production
 
 # Production link:  assignment-5-e2e-aw89extb9-leifurb.vercel.app
