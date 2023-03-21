@@ -1,7 +1,7 @@
 import { uuid } from "uuidv4";
 
 import { PrismaClient } from '@prisma/client'
-const prisma = new PrismaClient()
+export const prisma = new PrismaClient()
 
 
 //Assumed i should keep the interface because addTodo depends on it
@@ -52,4 +52,7 @@ export async function removeTodoById(id: string) {
     return true;
   }
   return false;*/
+}
+export async function deleteMany() {
+  return await prisma.newtodo.deleteMany();
 }
